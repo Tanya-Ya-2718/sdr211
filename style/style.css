@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+}
+
+/* .block{ */
+    /* height: 700px; */
+    /* background: #1b229a; */
+    /* background-color:#9a1b7a ; */
+    /* background-image: url(../image/Icon.png); */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-size: 50% 100%; */
+    /* background-size: 200% 500%; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-position: center top; */
+    /* background-position: center top; */
+
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.first-section{
+    padding: 50px 0 118px;
+    background: 
+    url(../image/Mask\ Group.png) no-repeat left/40%,
+    url(../image/cup1.png) no-repeat right/50%,
+    #000;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+width: 134px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.menu-link{
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 160%;
+}
+.menu-link.active{
+    font-weight: 700;
+    color: #FF4B32;
+    opacity: 1;
+}
+
+
+.main-header{
+    max-width: 524px;
+    font-size: 58px;
+    color: #FFFFFF;
+    line-height: 120%;
+    margin-top: 110px;
+}
+
+.main-description{
+    max-width: 506px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity: .8;
+    margin-top: 26px;
+    margin-bottom: 48px;
+}
+
+.main-button{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    padding: 16px 35px;
+    background: #FF4B32;
+    border-radius: 5px;
+    min-width: 148px;
+    cursor: pointer;
+}
+
+
+
+
+.dz-block{
+    background-color: #0D0402;
+    height: 650px;
+    top: 2786px;
+    box-sizing: border-box;
+
+
+}
+.beans{
+   display: flex;
+   justify-content: space-between;
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.Follow-US{
+    font-weight: 600;
+    color: #FF4B32;
+    opacity: 1;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+
+}
+line{
+    color: #FF4B32;
+    width: 95px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+.h1{
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.h1-2{
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.tel-block{
+    
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.number-tel{
+    font-weight: 400;
+    font-size: 24px;
+    left: 7px;
+
+}
+.mail-block{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mail{
+    font-weight: 400;
+    font-size: 24px;
+    left: 7px;
+}
+.social-media{
+    display: flex;
+    gap: 20px;
+
+}
+
+.header-cards-selection{
+    margin-top: 140px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 43px;
+}
+
+.description-header{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.cards-wrap{
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.card{
+    
+    width: 362px;
+    height: 536px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 40px 15px 136px rgba(0,0,0,.2);
+    
+
+}
+
+.card-header{
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 30px;
+
+}
+
+.card-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+.card-link{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FF4B32;
+    display: flex;
+    margin-top: 20px;
+}
+.arrow{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
